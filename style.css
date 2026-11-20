@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  margin: 0;
+}
+.site-header, .site-footer {
+  text-align: center;
+  padding: 20px;
+}
+.site-footer {
+  font-size: 13px;
+  color: #666666;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.card {
+  border: 1px solid #cccccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.food-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-height: 260px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+.food-btn {
+  width: 110px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.plate-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+.plate-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border-bottom: 1px solid #cccccc;
+}
+.plate-item .name {
+  flex: 1;
+}
+.grams-input {
+  width: 60px;
+  text-align: right;
+}
+.item-co2 {
+  font-weight: bold;
+  color: #006600;
+}
+.remove-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.summary {
+  border: 1px solid #cccccc;
+  padding: 15px;
+}
+.total {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.equivalents {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.chart-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.chart-row .label {
+  width: 140px;
+}
+.bar-track {
+  flex: 1;
+  height: 14px;
+}
+.bar-fill {
+  display: block;
+  height: 100%;
+}

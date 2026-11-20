@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Footprint</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Food Footprint</h1>
+    <p>See how much CO2 your meals really cost the planet.</p>
+  </header>
+
+  <main>
+
+    <section class="intro card">
+      <p>Food causes about a quarter of global greenhouse gas emissions, and some foods emit way more than others. Build a plate below and see what it costs.</p>
+    </section>
+
+    <section class="calculator card">
+      <h2>Build your plate</h2>
+
+      <div id="food-grid" class="food-grid"></div>
+
+      <h3>Your plate</h3>
+      <ul id="plate-list" class="plate-list">
+        <li class="empty-hint">Click a food above to add it here.</li>
+      </ul>
+
+      <div id="summary" class="summary"></div>
+    </section>
+
+
+    <section class="comparison card">
+      <h2>Compare foods</h2>
+      <p>Carbon footprint per kilogram, highest to lowest.</p>
+      <div id="chart" class="chart"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Figures are rounded global averages (Poore &amp; Nemecek, 2018). Real footprints vary by region and farming method.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
