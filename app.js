@@ -55,7 +55,7 @@ function showPlate() {
       <button class="remove-btn" title="Remove">x</button>
     `;
 
-    row.querySelector(".grams-input").addEventListener("input", (e) => {
+    row.querySelector(".grams-input").addEventListener("change", (e) => {
       plate[i].grams = Math.max(0, Number(e.target.value) || 0);
       showPlate();
     });
