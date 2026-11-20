@@ -2,6 +2,7 @@
 // Source: Poore & Nemecek (2018), "Reducing food's environmental impacts.
 
 const FOODS = [
+  
   { name: "Beef",            emoji: "🥩", category: "Meat",       co2PerKg: 60 },
   { name: "Lamb",             emoji: "🍖", category: "Meat",       co2PerKg: 24 },
   { name: "Cheese",           emoji: "🧀", category: "Dairy",      co2PerKg: 21 },
