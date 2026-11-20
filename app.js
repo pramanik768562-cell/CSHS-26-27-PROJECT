@@ -8,6 +8,7 @@ const chartBox = document.getElementById("chart");
 function showFoodButtons() {
   foodButtons.innerHTML = "";
 
+  
   for (let i = 0; i < FOODS.length; i++) {
     const food = FOODS[i];
 
